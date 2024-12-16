@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background: url('images/hero-bg.jpg') center/cover no-repeat fixed;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+.btn:hover {
+    background-color: #0056b3;
+    transition: 0.3s ease-in-out;
+}
